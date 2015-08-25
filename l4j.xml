@@ -1,0 +1,26 @@
+<launch4jConfig>
+  <dontWrapJar>true</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>./ScoresManager.jar</jar>
+  <outfile>/Users/conteit/Documents/workspace/ScoresManager/ScoresManager.exe</outfile>
+  <errTitle>Java Virtual Machine is required, download it!</errTitle>
+  <cmdLine></cmdLine>
+  <chdir></chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <customProcName>true</customProcName>
+  <stayAlive>false</stayAlive>
+  <manifest></manifest>
+  <icon></icon>
+  <singleInstance>
+    <mutexName>scoresmanager</mutexName>
+    <windowTitle>ScoresManager</windowTitle>
+  </singleInstance>
+  <jre>
+    <path></path>
+    <minVersion>1.5.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+  </jre>
+</launch4jConfig>
